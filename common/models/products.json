@@ -1,0 +1,45 @@
+{
+  "name": "Products",
+  "plural": "Products",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "color": {
+      "type": "number"
+    },
+    "size": {
+      "type": "number"
+    },
+    "type": {
+      "type": "number"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "quatity": {
+      "type": "number"
+    },
+    "dateImport": {
+      "type": "date"
+    },
+    "loved": {
+      "type": "number"
+    },
+    "liked": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

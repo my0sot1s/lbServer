@@ -1,0 +1,30 @@
+{
+  "name": "detailPost",
+  "plural": "detailPost",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "banner": {
+      "type": [
+        "string"
+      ]
+    },
+    "content": {
+      "type": [
+        "string"
+      ]
+    },
+    "images": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

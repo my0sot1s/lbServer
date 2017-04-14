@@ -1,0 +1,42 @@
+{
+  "name": "listPosts",
+  "plural": "listPosts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "titles": {
+      "type": "string",
+      "default": "!"
+    },
+    "author": {
+      "type": "string"
+    },
+    "views": {
+      "type": "number",
+      "default": 0
+    },
+    "shares": {
+      "type": "number",
+      "default": 0
+    },
+    "begin": {
+      "type": "string",
+      "default": "..."
+    },
+    "dateCreate": {
+      "type": "date"
+    },
+    "banner": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "dbnode": {
+    "host": "ds159328.mlab.com",
+    "port": 59328,
+    "url": "mongodb://dev:1223@ds159328.mlab.com:59328/dbnode",
+    "database": "dbnode",
+    "password": "1223",
+    "name": "dbnode",
+    "user": "dev",
+    "connector": "mongodb"
+  }
+}
