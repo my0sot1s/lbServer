@@ -46,5 +46,9 @@
   "Products": {
     "dataSource": "dbnode",
     "public": true
+  },
+  "Images": {
+    "dataSource": "dbnode",
+    "public": true
   }
 }

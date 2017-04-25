@@ -1,23 +1,16 @@
 {
-  "name": "detailPost",
-  "plural": "detailPost",
+  "name": "Images",
+  "plural": "Images",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "banner": {
-      "type": [
-        "string"
-      ]
+    "productId": {
+      "type": "string"
     },
-    "content": {
-      "type": [
-        "string"
-      ]
-    },
-    "images": {
+    "links": {
       "type": [
         "string"
       ]
