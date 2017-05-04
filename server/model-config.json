@@ -50,5 +50,9 @@
   "Images": {
     "dataSource": "dbnode",
     "public": true
+  },
+  "UserLogin": {
+    "dataSource": "dbnode",
+    "public": true
   }
 }

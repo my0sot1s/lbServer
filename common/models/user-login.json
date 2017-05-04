@@ -1,0 +1,50 @@
+{
+  "name": "UserLogin",
+  "plural": "UserLogin",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "gender": {
+      "type": "string",
+      "default": "male"
+    },
+    "name": {
+      "type": "object"
+    },
+    "location": {
+      "type": "object"
+    },
+    "email": {
+      "type": "string"
+    },
+    "login": {
+      "type": "object",
+      "required": true
+    },
+    "dob": {
+      "type": "date"
+    },
+    "registered": {
+      "type": "date"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "cell": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "object"
+    },
+    "nat": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
