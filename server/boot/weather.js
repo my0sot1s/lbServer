@@ -1,7 +1,7 @@
 const http = require('http')
 
-const weatherApi = (cb, city) => {
-  http.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&mode=json&units=metric&APPID=97daf377ab057bdfa9ef9f7a45296b78`, response => {
+const weatherApi = (cb, city, type) => {
+  http.get(`http://api.openweathermap.org/data/2.5/${type}?q=${city}&mode=json&units=metric&APPID=97daf377ab057bdfa9ef9f7a45296b78`, response => {
     var buffer = '';
     var data = '';
 
