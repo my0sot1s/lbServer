@@ -14,5 +14,13 @@ module.exports = function (app) {
     }
 
   });
+
+  router.get('/weather/:lat/:lon', function (req, res) {
+    weather((data) => {
+      res.send(data).end()
+    }, 'forecast', req.params.lat, req.params.lon);
+  });
+
+
   app.use(router);
 }
